@@ -1,3 +1,55 @@
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .img {
-    background-image: url("Home.jpeg");
+    background-image: url("Home.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+}
+
+.content {
+    color: black;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+/* Header Styles */
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+    /* transition: color 0.3s ease; */
+}
+
+.navbar a:hover {
+    color: #f76c6c;
 }
